@@ -19,7 +19,7 @@ var doc = `{
     "info": {
         "description": "{{.Description}}",
         "title": "{{.Title}}",
-        "termsOfService": "https://github.com/go-programming-tour-book",
+        "termsOfService": "https://github.com/herrhu97",
         "contact": {},
         "license": {},
         "version": "{{.Version}}"

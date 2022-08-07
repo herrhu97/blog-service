@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/go-programming-tour-book/blog-service/global"
-	"github.com/go-programming-tour-book/blog-service/internal/dao"
+	"github.com/herrhu97/blog-service/global"
+	"github.com/herrhu97/blog-service/internal/dao"
 )
 
 type Service struct {

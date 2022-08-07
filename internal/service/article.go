@@ -1,6 +1,6 @@
 package service
 
-import "github.com/go-programming-tour-book/blog-service/internal/model"
+import "github.com/herrhu97/blog-service/internal/model"
 
 type ArticleRequest struct {
 	ID    uint32 `form:"id" binding:"required,gte=1"`

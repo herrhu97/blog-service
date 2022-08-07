@@ -4,12 +4,12 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/go-programming-tour-book/blog-service/global"
-	"github.com/go-programming-tour-book/blog-service/internal/middleware"
-	"github.com/go-programming-tour-book/blog-service/internal/routers/api"
-	v1 "github.com/go-programming-tour-book/blog-service/internal/routers/api/v1"
+	"github.com/herrhu97/blog-service/global"
+	"github.com/herrhu97/blog-service/internal/middleware"
+	"github.com/herrhu97/blog-service/internal/routers/api"
+	v1 "github.com/herrhu97/blog-service/internal/routers/api/v1"
 
-	_ "github.com/go-programming-tour-book/blog-service/docs"
+	_ "github.com/herrhu97/blog-service/docs"
 
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"

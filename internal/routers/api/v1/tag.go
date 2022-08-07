@@ -2,11 +2,11 @@ package v1
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/go-programming-tour-book/blog-service/global"
-	"github.com/go-programming-tour-book/blog-service/internal/service"
-	"github.com/go-programming-tour-book/blog-service/pkg/app"
-	"github.com/go-programming-tour-book/blog-service/pkg/convert"
-	"github.com/go-programming-tour-book/blog-service/pkg/errcode"
+	"github.com/herrhu97/blog-service/global"
+	"github.com/herrhu97/blog-service/internal/service"
+	"github.com/herrhu97/blog-service/pkg/app"
+	"github.com/herrhu97/blog-service/pkg/convert"
+	"github.com/herrhu97/blog-service/pkg/errcode"
 )
 
 type Tag struct{}

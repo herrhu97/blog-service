@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/go-programming-tour-book/blog-service/global"
-	"github.com/go-programming-tour-book/blog-service/internal/model"
-	"github.com/go-programming-tour-book/blog-service/internal/routers"
-	"github.com/go-programming-tour-book/blog-service/pkg/logger"
-	"github.com/go-programming-tour-book/blog-service/pkg/setting"
+	"github.com/herrhu97/blog-service/global"
+	"github.com/herrhu97/blog-service/internal/model"
+	"github.com/herrhu97/blog-service/internal/routers"
+	"github.com/herrhu97/blog-service/pkg/logger"
+	"github.com/herrhu97/blog-service/pkg/setting"
 	"gopkg.in/natefinch/lumberjack.v2"
 )
 
@@ -32,7 +32,7 @@ func init() {
 // @title 博客系统
 // @version 1.0
 // @description Go 语言编程之旅：一起用 Go 做项目
-// @termsOfService https://github.com/go-programming-tour-book
+// @termsOfService https://github.com/herrhu97
 func main() {
 	gin.SetMode(global.ServerSetting.RunMode)
 	router := routers.NewRouter()
@@ -43,8 +43,6 @@ func main() {
 		WriteTimeout:   global.ServerSetting.WriteTimeout,
 		MaxHeaderBytes: 1 << 20,
 	}
-
-	global.Logger.Infof("%s: go-programming-tour-book/%s", "eddycjy", "blog-service")
 
 	s.ListenAndServe()
 }

@@ -1,6 +1,6 @@
 package model
 
-import "github.com/go-programming-tour-book/blog-service/pkg/app"
+import "github.com/herrhu97/blog-service/pkg/app"
 
 // article.go
 type ArticleSwagger struct {
